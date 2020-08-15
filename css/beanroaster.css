@@ -5,7 +5,7 @@ body {
 header {
     background-color: BlanchedAlmond;
     text-align: center;
-	width:622px;
+    width: 622px;
 }
 
 h1 {
@@ -19,16 +19,16 @@ h3 {
 }
 
 p {
-	text-align: center;
-	color: brown
+    text-align: center;
+    color: brown;
 }
 
 footer {
-	width:622px;
-	background-color: BlanchedAlmond;
+    width: 622px;
+    background-color: BlanchedAlmond;
 }
 
-#fullpage { 
+#fullpage {
     background: #8c7165;
     color: white;
     border-radius: 1em;
@@ -37,66 +37,94 @@ footer {
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%) 
+    transform: translate(-50%, -50%);
 }
 
-#tdldimglabel{
-    width: 15%
+#tdldimglabel {
+    width: 15%;
 }
 
-#tdldimginput{
-    width: 61%
+#tdldimginput {
+    width: 61%;
 }
 
-#tdpointermode{
+#tdpointermode {
     width: 24%;
-	text-align: center
+    text-align: center;
 }
 
-#uploadImage{
-    float:left
+#uploadImage {
+    float: left;
 }
 
-#dvColoursample{
-    width:622px;
-	height:302px;
-	position: relative;
-	background-color: #8c7165;
+#dvColoursample {
+    width: 622px;
+    height: 302px;
+    position: relative;
+    background-color: #8c7165;
 }
 
-#cnvActiveImage{
-	border: 1px solid #d3d3d3;
-	position: absolute; 
-	left: 0; 
-	top: 0; 
-	z-index: 0
+#cnvActiveImage {
+    border: 1px solid #d3d3d3;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
 }
 
-#cnvZoomPixels{
-    border:1px solid #d3d3d3;
+#cnvZoomPixels {
+    border: 1px solid #d3d3d3;
     position: absolute;
     left: 470px;
     top: 0;
-    z-index: 0
+    z-index: 0;
 }
 
-#dvSampleFrame{
-    border:1px solid #d3d3d3;
-    height:150px;
-    width:150px;
-    background-color:#FFFFFF;
+#dvSampleFrame {
+    border: 1px solid #d3d3d3;
+    height: 150px;
+    width: 150px;
+    background-color: #ffffff;
     position: absolute;
     left: 470px;
     top: 150px;
     z-index: 0;
 }
 
-#dvActiveColour{
-    height:100px;
-    width:102px;
-    background-color:#FFFFFF;
+#dvActiveColour {
+    height: 100px;
+    width: 102px;
+    background-color: #ffffff;
     position: absolute;
     left: 495px;
     top: 177px;
     z-index: 0;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-center {
+    text-align: center;
+}
+
+#load-image-label {
+    width: 15%;
+}
+
+#load-image-input-container {
+    width: 61%;
+}
+
+#pointer-mode-label {
+    width: 24%;
+}
+
+#coffee-bean-color-label {
+    width: 80%;
+}
+
+#coffee-bean-input-container {
+    width: 20%;
 }
