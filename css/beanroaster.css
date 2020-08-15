@@ -108,3 +108,23 @@ footer {
 .align-center {
     text-align: center;
 }
+
+#load-image-label {
+    width: 15%;
+}
+
+#load-image-input-container {
+    width: 61%;
+}
+
+#pointer-mode-label {
+    width: 24%;
+}
+
+#coffee-bean-color-label {
+    width: 80%;
+}
+
+#coffee-bean-input-container {
+    width: 20%;
+}
